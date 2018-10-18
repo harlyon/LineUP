@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Business extends Component {
+class Tech extends Component {
 
     state = {
         articles: []
@@ -12,7 +12,7 @@ class Business extends Component {
     }
 
     fetchNews = () => {
-       axios.get(`https://newsapi.org/v2/everything?q=business&apiKey=a391fff851774b5d8804cf3027c4b8e8&pageSize=3`)
+       axios.get(`https://newsapi.org/v2/everything?q=technology&apiKey=a391fff851774b5d8804cf3027c4b8e8&pageSize=3`)
        .then(res=> {
            this.setState({ articles: res.data.articles })
            console.log(res.data.articles)
@@ -25,9 +25,10 @@ class Business extends Component {
                 {
                     this.state.articles.map((article) => {
                         return (
-                            <article className="card mb-4">
+                            <article className="card pos mb-4">
                             <header className="card-header">
                               <div className="card-meta">
+
                                 <time className="timeago">{article.publishedAt}</time><br />
                               </div>
                               <p>Author<strong> : {article.author}</strong></p>
@@ -49,4 +50,4 @@ class Business extends Component {
     }
 }
 
-export default Business;
+export default Tech;
