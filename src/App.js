@@ -15,7 +15,7 @@ class App extends Component {
         <NavBar />
         <br />
         <div className="main">
-           <div className="container">
+           <div className="">
               <div className="row">
                  <div className="col-md-4 col-sm-12">
                  <h3 className="text-center" style={{color: 'white', background: 'black'}}>Top Headlines</h3>
@@ -37,7 +37,7 @@ class App extends Component {
         </div>
         <br /><br />
         <div className="main">
-           <div className="container">
+           <div className="">
               <div className="row">
                  <div className="col-md-4">
                  <h3 className="text-center" style={{color: 'white', background: 'black'}}>Fashion News</h3>

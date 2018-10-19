@@ -37,7 +37,7 @@ class Business extends Component {
                            <div className="card-body">
                               <p className="card-text">{article.description}</p>
                             </div>
-                            <a href="post-image.html">
+                            <a href={article.url}>
                                 <p className="btn btn-secondary">Read More</p>
                             </a>
                           </article>
