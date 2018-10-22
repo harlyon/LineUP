@@ -16,7 +16,7 @@ const NavBar = () => {
                     <a className="nav-link" href="/">Top Headlines</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/">Business News</a>
+                    <a className="nav-link" href="/business">Business News</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="/">Sport News</a>
@@ -26,6 +26,9 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="/">Music News</a>
+                    </li>
+                    <li>
+                      <a className="nav-link" href="/">Technology News</a>
                     </li>
                 </ul>
                 </div>
