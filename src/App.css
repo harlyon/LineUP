@@ -29,6 +29,25 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
+/* .colum {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    }
+
+    .colum:nth-child(odd) {
+    margin-right: 0.5rem
+    }
+
+    .colum:nth-child(even) {
+    margin-left: 0.5rem;
+    }
+
+    .colum:not(:nth-child(0)),
+    .colum:not(:nth-child(0)) {
+    margin-top: 1rem;
+    } */
+
 .fa-lg {
     font-size: 1.33333em;
     line-height: .75em;
@@ -7470,16 +7489,22 @@ input[type=submit].btn-block {
     }
 }
 
+
+
 .card {
     position: relative;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-color: transparent;
     background-clip: border-box;
     border: 0 solid rgba(0, 0, 0, .125);
-    border-radius: 0
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .card>hr {

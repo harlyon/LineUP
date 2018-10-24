@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import BusinessList from '../Business/BusinessList'
 
 class MainLinks extends Component {
 
@@ -19,9 +20,24 @@ class MainLinks extends Component {
        })
     };
 
+    // renderItems() {
+    //   return this.state.articles.map((item) => {
+    //     return (
+    //        <BusinessList key={item.url} item={item} />
+    //     )
+    //   });
+    // }
+
   render () {
      return(
-        <div>
+        <>
+          {/* {
+            this.state.articles.map((item) => {
+              return (
+                <BusinessList key={item.url} item={item} />
+              )
+            })
+          } */}
         {
           this.state.articles.map((item) => {
             return(
@@ -44,7 +60,7 @@ class MainLinks extends Component {
             )
           })
         }
-        </div>
+        </>
      )
   }
 }

@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse order-3 order-md-2" id="navbar">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                    <a className="nav-link" href="/">Top Headlines</a>
+                    <a className="nav-link" href="/Headlines">Top Headlines</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="/business">Business News</a>
@@ -22,7 +22,7 @@ const NavBar = () => {
                     <a className="nav-link" href="/">Sport News</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/">Fashion News</a>
+                    <a className="nav-link" href="/fashion">Fashion News</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="/">Music News</a>
@@ -32,21 +32,7 @@ const NavBar = () => {
                     </li>
                 </ul>
                 </div>
-
-                {/* <div className="collapse navbar-collapse order-4 order-md-4" id="navbar">
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                    <a className="nav-link" href="page-about.html">About</a>
-                    </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="page-contact.html">Contact</a>
-                    </li>
-                </ul>
-                <form className="form-inline" role="search">
-                    <input className="search js-search form-control form-control-rounded mr-sm-2" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search" />
-                </form>
-                </div> */}
-            </div>
+              </div>
             </nav>
       </header>
       <br />
