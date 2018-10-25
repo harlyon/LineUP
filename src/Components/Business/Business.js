@@ -3,7 +3,6 @@ import MainLinks from '../Main/MainLinks';
 import '../../App.css';
 import NavBar from '../NavBar';
 import Aside from '../Aside/Aside'
-// import Business from './Business'
 
 
 class Business extends Component {
@@ -18,7 +17,7 @@ class Business extends Component {
     return(
      <div>
        <NavBar />
-       <div className="main">
+       <div className="">
           <div className="container">
              <div className="row">
                 <div className="col-md-9 col-sm-12">

@@ -20,6 +20,14 @@ body {
    color: white !important;
  }
 
+ .line a {
+     color: #000;
+     font-size: 20px;
+     padding: 10px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;

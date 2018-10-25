@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import BusinessList from '../Business/BusinessList'
+// import BusinessList from '../Business/BusinessList'
 
 class MainLinks extends Component {
 
