@@ -2,7 +2,7 @@ import React from 'react';
 
 const BusinessList = ({ item }) => {
     return (
-        <div>
+        <>
              <article className="card container mb-4 col">
               <header className="card-header">
                 <div className="card-meta">
@@ -19,7 +19,7 @@ const BusinessList = ({ item }) => {
                   <p className="btn btn-secondary">Read More</p>
               </a>
             </article>
-        </div>
+        </>
     );
 };
 

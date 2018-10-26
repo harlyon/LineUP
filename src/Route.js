@@ -12,7 +12,7 @@ import Sport from './Components/Sport/Sport';
 
 const BaseRouter = () => {
   return(
-    <div>
+    <>
        <Route exact path = '/' component={App} />
        <Route exact path = '/business' component={Business} />
        <Route exact path = '/fashion' component={Fashion} />
@@ -20,7 +20,7 @@ const BaseRouter = () => {
        <Route exact path = '/music' component={Music} />
        <Route exact path = '/technology' component={Technology} />
        <Route exact path = '/sport' component={Sport} />
-    </div>
+    </>
   )
 }
 

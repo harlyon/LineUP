@@ -291,6 +291,7 @@ body {
     content: "\F00B"
 }
 
+
 .fa-check:before {
     content: "\F00C"
 }
@@ -7473,11 +7474,11 @@ input[type=submit].btn-block {
 
 .navbar,
 .navbar * {
-    transition: all .25s ease-in-out
+    transition: all .25s ease-in-out;
 }
 
 .navbar .search {
-    width: 114px
+    width: 114px;
 }
 
 .navbar .search:focus {
@@ -7497,7 +7498,9 @@ input[type=submit].btn-block {
     }
 }
 
-
+.cad {
+    padding: 10px;
+}
 
 .card {
     position: relative;

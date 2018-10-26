@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-    <div>
+    <>
         <header role="banner">
             <nav className="navbar navbar-expand-md navbar-light bg-white absolute-top container">
             <a className="navbar-brand mx-auto order-1 order-md-3" href="/">NewsLineø</a>
@@ -37,7 +37,7 @@ const NavBar = () => {
             <hr />
       </header>
       <br />
-    </div>
+    </>
     );
 };
 

@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <NavBar />
         <br />
         <div className="main">
@@ -56,7 +56,7 @@ class App extends Component {
               </div>
            </div>
         </div>
-      </div>
+      </>
     );
   }
 }

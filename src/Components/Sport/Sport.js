@@ -14,7 +14,7 @@ class Sport extends Component {
 
     render() {
         return (
-            <div>
+            <>
                 <NavBar />
                 <div className="main">
                     <div className="container">
@@ -28,7 +28,7 @@ class Sport extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </>
         );
     }
 }

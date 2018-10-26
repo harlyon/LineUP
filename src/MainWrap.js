@@ -6,11 +6,11 @@ import BaseRouter from './Route';
 class MainWrap extends Component {
     render() {
         return (
-            <div>
+            <>
                 <Router>
                    <BaseRouter />
                 </Router>
-            </div>
+            </>
         );
     }
 }

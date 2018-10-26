@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainLinks from '../Main/MainLinks'
 import NavBar from '../NavBar'
+import Aside from '../Aside/Aside'
 
 class Fashion extends Component {
     state = {
@@ -11,7 +12,7 @@ class Fashion extends Component {
       }
       render() {
         return(
-         <div>
+         <>
            <NavBar />
            <div className="main">
               <div className="container">
@@ -19,10 +20,13 @@ class Fashion extends Component {
                     <div className="col-md-9 col-sm-12">
                         <MainLinks news={this.state.newsSource1} />
                     </div>
+                    <div className="col-sm-3">
+                        <Aside />
+                     </div>
                   </div>
               </div>
             </div>
-          </div>
+          </>
 
 
         )

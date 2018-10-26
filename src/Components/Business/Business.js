@@ -15,7 +15,7 @@ class Business extends Component {
   }
   render() {
     return(
-     <div>
+     <>
        <NavBar />
        <div className="">
           <div className="container">
@@ -29,7 +29,7 @@ class Business extends Component {
               </div>
           </div>
         </div>
-      </div>
+      </>
 
 
     )

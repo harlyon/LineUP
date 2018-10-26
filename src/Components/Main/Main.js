@@ -21,7 +21,7 @@ class Main extends Component {
 
     render() {
         return (
-            <div>
+            <>
                 {
                     this.state.articles.map((item) => {
                         return (
@@ -35,7 +35,9 @@ class Main extends Component {
                             </header>
                              <img className="card-img item" src={item.urlToImage} alt="news" />
                            <div className="card-body">
-                              <p className="card-text">{item.description}</p>
+                              <p className="card-text">
+                               {item.description}
+                              </p>
                             </div>
                             <a href={item.url}>
                                 <p className="btn btn-secondary">Read More</p>
@@ -44,7 +46,7 @@ class Main extends Component {
                         )
                     })
                 }
-            </div>
+            </>
         );
     }
 }

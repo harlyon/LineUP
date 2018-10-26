@@ -3,7 +3,6 @@ import MainLinks from '../Main/MainLinks';
 import NavBar from '../NavBar';
 import Aside from '../Aside/Aside'
 
-
 class TopHeadline extends Component {
 
     state = {
@@ -15,7 +14,7 @@ class TopHeadline extends Component {
 
     render() {
         return (
-            <div>
+            <>
                <NavBar />
                 <div className="main">
                     <div className="container">
@@ -29,7 +28,7 @@ class TopHeadline extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </>
         );
     }
 }

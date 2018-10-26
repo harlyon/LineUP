@@ -2,7 +2,7 @@ import React from 'react';
 
 const Aside = () => {
     return (
-        <div>
+        <>
              <nav id="sidebar"
                   style={{
                     paddingLeft: "25px",
@@ -41,7 +41,7 @@ const Aside = () => {
         </ul>
 
     </nav>
-        </div>
+        </>
     );
 };
 
